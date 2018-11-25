@@ -48,8 +48,8 @@ export default
 				codename:"portfolio",
 				description:"VueJS with Vuetify page",
 				images:['js/portfolio/js1.png','js/portfolio/js2.png','js/portfolio/js3.png'],
-				github:"https://github.com/danieltorrescode/",
-				link:"https://github.com/danieltorrescode/",
+				github:"https://github.com/danieltorrescode/portfolio-source/",
+				link:"https://danieltorrescode.github.io/portfolio/",
 				details:""
 			}
 		},
