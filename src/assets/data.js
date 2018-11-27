@@ -9,7 +9,11 @@ export default
 	},
 	about:{
 		photo:"foto.png",
-		description:"I am  system engineer  with 3 years of experience at software development. As a freelance developer  I've done remote work for agencies and consulted for startups  to create digital apps.",
+		description:`
+			I am  system engineer  with 3 years of experience at software development.
+			As a freelance developer I've done remote work for agencies and
+			consulted for startups  to create digital apps.
+		`,
 		skills:[
 			'Front-end',
 			'Back-end',
@@ -94,7 +98,7 @@ export default
 					'ty/manager/ty4.png'
 				],
 				github:"https://github.com/danieltorrescode/manager/",
-				link:"https://app-manager.herokuapp.com/home/",
+				link:"https://app-manager.herokuapp.com/",
 				details:"Angular 6 Front-End of MEAN CRUD, applies the fundamentals of the last version of the framework in modules and components architecture, reactive forms, guarded routing, lazy load and client HTTP API."
 			}
 		}
