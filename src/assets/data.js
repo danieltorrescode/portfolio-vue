@@ -69,7 +69,7 @@ export default
 				],
 				github:"https://github.com/danieltorrescode/volunteer/",
 				link:"https://site-volunteer.herokuapp.com/",
-				details:"Laravel 5.5 app intended for college tutors to manage students in community service activities. this is a CRUD in which is used blade template, Faker library that generates fake data, authentication middleware, Eloquent ORM."
+				details:"Laravel app intended for college tutors to manage students in community service activities. this is a CRUD in which is used blade template, Faker library that generates fake data, authentication middleware, Eloquent ORM."
 			}
 		},
 		python:{
