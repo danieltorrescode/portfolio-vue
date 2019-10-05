@@ -11,16 +11,19 @@
             <v-tab-item v-for="language in languages" :key="language" class="mt-1">
                 <v-layout row wrap justify-center>
             <v-flex v-for="(project,i) in projects[language]" :key="`6${i}`" xs12 md6 >
-                <v-card>
-                    <v-carousel hide-controls height="425">
+                <v-card dark>
+                    <!-- <v-carousel hide-controls height="425">
                         <v-carousel-item
                         v-for="(image,i) in project.images"
                         :key="i"
                         :src="require(`../assets/${image}`)"
                         >
                         </v-carousel-item>
-                    </v-carousel>
-
+                    </v-carousel> -->
+                    <v-img 
+                    :src="require(`../assets/${project.images[0]}`)" height="425px"
+                    >
+                    </v-img>
                     <v-card-title primary-title>
                     <div>
                         <div class="headline">{{project.codename}}</div>
@@ -31,8 +34,8 @@
                     </v-card-title>
 
                     <v-card-actions>
-                    <v-chip label class="mr-3">
-                        <a :href="project.github"><v-icon>mdi-github-circle</v-icon> Github</a>
+                    <v-chip label class="mr-3" color="white" text-color="white">
+                        <a :href="project.github"><v-icon light>mdi-github-circle</v-icon> Github</a>
                     </v-chip>
                     <v-spacer></v-spacer>
                     <v-btn icon @click="getProjectId(i)">

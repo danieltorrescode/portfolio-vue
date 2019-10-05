@@ -36,7 +36,8 @@ export default
 			'Github',
 			'Gitlab',
 			'Bash Shell'
-		]
+        ],
+        git:"https://github.com/danieltorrescode"
 	},
 	portfolio:{
 		javascript:{

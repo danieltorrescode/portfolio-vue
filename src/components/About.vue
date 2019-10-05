@@ -54,6 +54,17 @@
                             outline color="primary"
                             >
                                 <a 
+                                :href="about.git"
+                                style="font-size: 150%;"
+                                >
+                                <v-icon light>mdi-github-circle</v-icon>GitHub
+                                </a>
+                            </v-chip>
+                            <v-chip
+                            text-color="white"
+                            outline color="primary"
+                            >
+                                <a 
                                 :href="mailto"
                                 style="font-size: 150%;"
                                 >
