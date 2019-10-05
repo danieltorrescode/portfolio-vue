@@ -3,9 +3,8 @@
     <v-container grid-list-md >
         <v-tabs
             centered
-            color="primary"
             dark
-            slider-color="orange"
+            slider-color="yellow"
         >
             <v-tab v-for="language in languages" :key="language" ripple >{{language}}</v-tab>
 
@@ -18,7 +17,8 @@
                         v-for="(image,i) in project.images"
                         :key="i"
                         :src="require(`../assets/${image}`)"
-                        ></v-carousel-item>
+                        >
+                        </v-carousel-item>
                     </v-carousel>
 
                     <v-card-title primary-title>
@@ -31,9 +31,6 @@
                     </v-card-title>
 
                     <v-card-actions>
-                    <!-- <v-chip label class="mr-3">
-                        <a :href="project.link"><v-icon>mdi-web</v-icon> Link</a>
-                    </v-chip> -->
                     <v-chip label class="mr-3">
                         <a :href="project.github"><v-icon>mdi-github-circle</v-icon> Github</a>
                     </v-chip>
@@ -43,11 +40,6 @@
                     </v-btn>
                     </v-card-actions>
 
-                    <!-- <v-slide-y-transition>
-                    <v-card-text v-show="i == ProjectId" style="text-align:justify">
-                        {{project.details}}
-                    </v-card-text>
-                    </v-slide-y-transition> -->
                 </v-card>
             </v-flex>
             </v-layout>
@@ -94,5 +86,8 @@ data () {
 }
 </script>
 
-<style>
+<style scoped>
+/* .v-responsive{
+    overflow: visible;
+} */
 </style>

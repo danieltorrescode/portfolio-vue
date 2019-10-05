@@ -43,7 +43,12 @@ export default
 			project1:{
 				codename:"manager",
 				description:"MEAN CRUD to manage departments and employees at a company",
-				images:['js/manager/js1.png','js/manager/js2.png'],
+				images:[
+                    'js/manager/js1.png',
+                    'js/manager/js2.png',
+                    'js/manager/js3.png',
+                    'js/manager/js4.png'
+                ],
 				github:"https://github.com/danieltorrescode/manager-rest-api/",
 				link:"https://app-manager.herokuapp.com/index/",
 				details:"Nodejs and Express REST API of MEAN CRUD, use Passport as authentication middleware and a JSON Web Token strategy with passport-jwt and mongoose  as a MongoDB object modeling tool."
@@ -51,7 +56,7 @@ export default
 			project2:{
 				codename:"portfolio",
 				description:"VueJS with Vuetify page",
-				images:['js/portfolio/js1.png','js/portfolio/js2.png','js/portfolio/js3.png'],
+				images:['js/portfolio/js1.png','js/portfolio/js2.png'],
 				github:"https://github.com/danieltorrescode/portfolio-source/",
 				link:"https://danieltorrescode.github.io/portfolio/",
 				details:""
@@ -85,21 +90,6 @@ export default
 				github:"https://github.com/danieltorrescode/notes/",
 				link:"https://app-django-notes.herokuapp.com/",
 				details:"Django 2.1 app use the class and function based views,custom admin site, authentication middleware and ORM in the framework"
-			}
-		},
-		typescript:{
-			project1:{
-				codename:"manager",
-				description:"MEAN CRUD to manage departments and employees at a company",
-				images:[
-					'ty/manager/ty1.png',
-					'ty/manager/ty2.png',
-					'ty/manager/ty3.png',
-					'ty/manager/ty4.png'
-				],
-				github:"https://github.com/danieltorrescode/manager/",
-				link:"https://app-manager.herokuapp.com/",
-				details:"Angular 6 Front-End of MEAN CRUD, applies the fundamentals of the last version of the framework in modules and components architecture, reactive forms, guarded routing, lazy load and client HTTP API."
 			}
 		}
 	}
