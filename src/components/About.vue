@@ -11,22 +11,26 @@
 
                         <v-container>
                             <v-layout align-center justify-space-around row wrap fill-height>
+                                <v-flex ><v-icon>mdi-console</v-icon></v-flex>
+                                <v-flex ><v-icon>mdi-linux</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-json</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-language-html5</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-language-css3</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-language-javascript</v-icon></v-flex>
-                                <v-flex ><v-icon>mdi-nodejs</v-icon></v-flex>
-                                <v-flex ><v-icon>mdi-angular</v-icon></v-flex>
+                                <!-- <v-flex ><v-icon>mdi-nodejs</v-icon></v-flex> -->
+                                <!-- <v-flex ><v-icon>mdi-angular</v-icon></v-flex> -->
                                 <v-flex ><v-icon>mdi-vuejs</v-icon></v-flex>
-                                <v-flex ><v-icon>mdi-language-typescript</v-icon></v-flex>
+                                <!-- <v-flex ><v-icon>mdi-language-typescript</v-icon></v-flex> -->
                             </v-layout>
                             <v-layout align-center justify-space-around row wrap fill-height>
                                 <v-flex ><v-icon>mdi-language-php</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-laravel</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-language-python</v-icon></v-flex>
+                                <v-flex ><v-icon>mdi-git</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-github-circle</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-gitlab</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-database</v-icon></v-flex>
+                                <v-flex ><v-icon>mdi-docker</v-icon></v-flex>
                             </v-layout>
                         </v-container>
 
@@ -53,7 +57,7 @@
                             text-color="white"
                             outline color="primary"
                             >
-                                <a 
+                                <a
                                 :href="about.git"
                                 style="font-size: 150%;"
                                 >
@@ -64,7 +68,7 @@
                             text-color="white"
                             outline color="primary"
                             >
-                                <a 
+                                <a
                                 :href="mailto"
                                 style="font-size: 150%;"
                                 >
