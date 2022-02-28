@@ -20,10 +20,11 @@
                         >
                         </v-carousel-item>
                     </v-carousel> -->
-                    <v-img 
+                    <!-- <v-img
                     :src="require(`../assets/${project.images[0]}`)" height="425px"
                     >
-                    </v-img>
+                    </v-img> -->
+                    <img :src="require(`../assets/${project.images[0]}`)" style="width: 100%;height: 425px;">
                     <v-card-title primary-title>
                     <div>
                         <div class="headline">{{project.codename}}</div>
