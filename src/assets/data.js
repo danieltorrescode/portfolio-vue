@@ -9,9 +9,10 @@ export default {
   about: {
     photo: "foto.png",
     description: `
-       I am  system engineer  with 3 years of experience at software development.
-       As a freelance developer I've done remote work for agencies and
-       consulted for startups  to create digital apps.
+      I'm full-stack software developer.
+      always learning something new in the tech field.
+      highly interested in maths, data sicence and machine learning,
+      enthusiast for free software philosophy and GNU-Linux operating systems.
     `,
     skills: [
       "Full-stack Dev",
@@ -25,7 +26,7 @@ export default {
       "php : Laravel",
       "Javascript : VueJS",
       "Boostrap",
-      "Sql",
+      "PostgreSQL",
     ],
     tools: ["Atom", "Pycharm", "Github", "Gitlab", "Bash Shell"],
     git: "https://github.com/danieltorrescode",
@@ -34,7 +35,7 @@ export default {
     gnu_linux: {
       project1: {
         codename: "dotfiles",
-        description: "",
+        description: "My dotfiles [bspwm] Debian 11 (more intended to usability that ricing)",
         images: [
           "gnu_linux/dotfiles/sh1.png",
         ],
@@ -45,7 +46,7 @@ export default {
       },
       project2: {
         codename: "emacs",
-        description: "",
+        description: "My GNU Emacs config",
         images: [
           "gnu_linux/emacs/el1.png",
         ],
@@ -59,7 +60,7 @@ export default {
       project1: {
         codename: "vue",
         description:
-          "",
+          "Minimalist front-end with Vue.js and Vuetify for CRUD tasks",
         images: [
           "js/vue/vue1.png",
         ],
@@ -128,7 +129,7 @@ export default {
     jupyter: {
       project1: {
         codename: "jupyter",
-        description: "",
+        description: "JupyterLab notes from my learning path in data science and machine learning",
         images: [
           "jupyter/ipynb1.png",
         ],
@@ -141,7 +142,7 @@ export default {
     solidity: {
       project1: {
         codename: "ether",
-        description: "",
+        description: "Environment for developing contracts with solidity",
         images: [
           "solidity/ether/sol1.png",
         ],
