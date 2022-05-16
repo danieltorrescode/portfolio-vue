@@ -35,7 +35,7 @@ export default {
     gnu_linux: {
       project1: {
         codename: "dotfiles",
-        description: "My dotfiles [bspwm] Debian 11 (more intended to usability that ricing)",
+        description: "My dotfiles Arch Linux [DWM] (more intended to usability that ricing)",
         images: [
           "gnu_linux/dotfiles/sh1.png",
         ],

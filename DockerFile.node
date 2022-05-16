@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:14-bullseye
 
 # Create app directory
 RUN mkdir /app
@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # change permission entrypoint.sh
 RUN chmod 755 ./.docker/entrypoint.sh
-
+RUN npm install -g  @vue/cli@3.0.1 
 USER node
 
 # run entrypoint.sh

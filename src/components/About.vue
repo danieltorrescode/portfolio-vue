@@ -13,12 +13,12 @@
                             <v-layout align-center justify-space-around row wrap fill-height>
                                 <v-flex ><v-icon>mdi-console</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-linux</v-icon></v-flex>
+                                <!-- <v-flex ><v-icon>mdi-arch</v-icon></v-flex> -->
                                 <v-flex ><v-icon>mdi-json</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-language-html5</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-language-css3</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-language-javascript</v-icon></v-flex>
-                                <!-- <v-flex ><v-icon>mdi-nodejs</v-icon></v-flex> -->
-                                <!-- <v-flex ><v-icon>mdi-angular</v-icon></v-flex> -->
+                                <v-flex ><v-icon>mdi-nodejs</v-icon></v-flex>
                                 <v-flex ><v-icon>mdi-vuejs</v-icon></v-flex>
                                 <!-- <v-flex ><v-icon>mdi-language-typescript</v-icon></v-flex> -->
                             </v-layout>
@@ -36,7 +36,7 @@
 
                         <v-layout row wrap>
                             <v-flex xs12 sm6 >
-                                <h1 class=".title align">Can work at:</h1>
+                                <h1 class=".title align-left">Can work at:</h1>
                                 <ul>
                                     <li v-for="(skill, index) in about.skills" :key="index">
                                         {{ skill }}
@@ -44,7 +44,7 @@
                                 </ul>
                             </v-flex>
                             <v-flex xs12 sm6>
-                                <h1 class=".title align">Languages and Frameworks:</h1>
+                                <h1 class=".title align-left">Languages and Frameworks:</h1>
                                 <ul>
                                     <li v-for="(language, index) in about.languages" :key="index">
                                         {{ language }}
